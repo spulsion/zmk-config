@@ -38,10 +38,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4  &kp N5    &kp N6    &kp N7        &kp N8     &kp N9  &kp N0      &kp BSPC
-&bt BT_CLR_ALL  &trans  &trans  &trans    &trans  &trans    &trans    &kp UP_ARROW  &trans     &trans  &kp INSERT  &kp K_VOLUME_UP
-&kp LSHFT       &trans  &trans  &trans    &trans  &trans    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp DELETE  &kp K_VOLUME_DOWN
-                                &kp LGUI  &trans  &tog 3    &kp RET   &trans        &kp RALT
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5    &kp N6    &kp N7        &kp N8     &kp N9  &kp N0      &kp BSPC
+&trans     &trans  &trans  &trans    &trans  &trans    &trans    &kp UP_ARROW  &trans     &trans  &kp INSERT  &kp K_VOLUME_UP
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp DELETE  &kp K_VOLUME_DOWN
+                           &kp LGUI  &trans  &tog 3    &kp RET   &trans        &kp RALT
             >;
         };
 
@@ -62,9 +62,9 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &trans
+&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans          &trans
                         &kp LEFT_ALT  &trans  &trans    &trans  &trans  &trans
             >;
         };
