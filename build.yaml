@@ -63,9 +63,9 @@ include:
     artifact-name: nice_lily58_left_peripheral_oled
  # peripheral_right
   - board: nice_nano_v2
-    shield: lily58_right_peripheral nice_oled
+    shield: lily58_right nice_oled
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_lily58_right_peripheral_oled
+    artifact-name: nice_lily58_right_oled
 
 
   # ProMicro_Dongle
